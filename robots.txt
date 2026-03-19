@@ -1,0 +1,14 @@
+# robots.txt — Prodi STI Universitas Halmahera
+# https://sti.uniera.ac.id/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block admin / private paths (update as needed)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.git/
+Disallow: /tmp/
+
+# Sitemap
+Sitemap: https://sti.uniera.ac.id/sitemap.xml
